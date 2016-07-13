@@ -40,7 +40,6 @@ setup(
         'Products.GenericSetup>=1.8.2',
         'setuptools',
         'plone.namedfile',
-        'PIL',
     ],
     extras_require={
         'test': [
