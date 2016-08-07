@@ -1,18 +1,13 @@
 # -*- coding: utf-8 -*-
-import logging
-import os
-from datetime import datetime
-from StringIO import StringIO
-
-import requests
 from PIL import Image
+from plone.namedfile.scaling import ImageScaling
+from StringIO import StringIO
 from zope.interface import implementer
 from zope.publisher.interfaces import IPublishTraverse
 from zope.traversing.interfaces import ITraversable
 
-from plone import api
-from plone.namedfile.scaling import ImageScaling
-from Products.Five.browser import BrowserView
+import logging
+
 
 # from .. import messageFactory as _
 logger = logging.getLogger("Plone")
